@@ -1,0 +1,36 @@
+body {margin: 0; padding: 0;}
+
+/* Para encolumnar y dividir la pantalla */
+
+
+section {display: flex; height: 50h; width: 50h;}
+
+
+/* Para que el div se vea, debe tener algún contenido */
+
+.azul {background: rgb(17, 0, 255);
+height: 100vh;
+width: 100vh;}
+
+/* vh es el tamaño de la ventana. Cuando indicas alto 100 vh te ocupa el 100% de la ventana.
+/* si lo aplicas al ancho (width...) pues lo hará a lo ancho de la pantalla */
+
+img {width: 10vh; height: 10vh; margin-right: 50px;}
+
+.H1Azul {margin: 10px; padding: 0px; color:rgb(238, 255, 0); }
+
+.pazul {margin: 50px; color:rgb(238, 255, 0); font-size: 25px;}
+
+ol {margin: 50px; color: rgb(238, 255, 0)}
+
+.grana {background: rgb(255, 1, 1);
+height: 100vh;
+width: 100vh;
+padding-right: 50px;}
+
+.h1grana {margin-top: 40px; color:rgb(238, 255, 0); padding-left: 50%;}
+
+footer {font-size: 13px; background-color: rgb(238, 255, 0);;}
+
+iframe {width: 400px; height: 300px; margin-left: 30%;}
+
