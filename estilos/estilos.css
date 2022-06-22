@@ -1,3 +1,5 @@
+* {box-sizing: content-box;}
+
 body {margin: 0; padding: 0;}
 
 /* Para encolumnar y dividir la pantalla */
@@ -19,18 +21,19 @@ img {width: 10vh; height: 10vh; margin-right: 50px;}
 
 .H1Azul {margin: 10px; padding: 0px; color:rgb(238, 255, 0); }
 
-.pazul {margin: 50px; color:rgb(238, 255, 0); font-size: 25px;}
+.pazul {text-align: center; margin: 50px; color:rgb(238, 255, 0); font-size: 25px;}
 
-ol {margin: 50px; color: rgb(238, 255, 0)}
+ol {margin: 50px; color: rgb(238, 255, 0); font-size: 18px;}
 
 .grana {background: rgb(255, 1, 1);
 height: 100vh;
 width: 100vh;
 padding-right: 50px;}
 
-.h1grana {margin-top: 40px; color:rgb(238, 255, 0); padding-left: 50%;}
+.h1grana {text-align: center; margin-top: 40px; color:rgb(238, 255, 0); padding-left: 50px;}
 
-footer {font-size: 13px; background-color: rgb(238, 255, 0);;}
+footer {font-size: 13px; background-color: rgb(238, 255, 0); text-align: center;}
 
-iframe {width: 400px; height: 300px; margin-left: 30%;}
+iframe {width: 70%; height: 80%; margin-left: 20%; border: 1px solid;}
+
 
